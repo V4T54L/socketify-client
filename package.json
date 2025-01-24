@@ -1,0 +1,33 @@
+{
+  "name": "socketify-client",
+  "version": "0.0.1",
+  "description": "A lightweight WebSocket client library for real-time web applications. Offers event-driven architecture, reconnection logic, room management, and middleware support.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "build": "tsup src/* --format cjs,esm --dts",
+    "watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/V4T54L/socketify-client.git"
+  },
+  "keywords": [
+    "socketify",
+    "socketify-client"
+  ],
+  "author": "V4T54L",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/V4T54L/socketify-client/issues"
+  },
+  "homepage": "https://github.com/V4T54L/socketify-client#readme",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.3"
+  }
+}
